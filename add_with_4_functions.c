@@ -2,19 +2,19 @@
 float input()
 {
     float n;
-	printf("\n enter number:");
+	printf("enter number:");
 	scanf("%f",&n);
 	return n;
 }
 float sum(float a,float b)
 {
 	   float sum;
-		 sum=a+b;
-		 return sum;
+            sum=a+b;
+          return sum;
 }
 void output(float n)
 {
-  printf("\n the sum is %f",n);
+  printf("sum is %f",n);
 }
  int main()
 {
